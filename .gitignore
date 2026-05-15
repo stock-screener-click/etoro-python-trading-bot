@@ -1,0 +1,11 @@
+.env
+*.log
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# The README suggests committing instrument_cache.json to persist eToro
+# instrumentID lookups across CI runs. If you'd rather keep it local,
+# uncomment the next line.
+# instrument_cache.json
